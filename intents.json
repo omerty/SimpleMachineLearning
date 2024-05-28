@@ -1,0 +1,37 @@
+{"intents": [
+    {
+        "tag": "greetings",
+        "patterns": ["hello","hey","hi","Good day","greetings", "what's up", "how is it going"],
+        "responses": ["Hello!", "Hey!", "What can I do for you?"]
+    },
+    {
+        "tag": "goodbye",
+        "patterns": ["bye","cya","See you later","I have to go","GoodBye", "I am Leaving now", "Have a good day", "see ya"],
+        "responses": ["Sad to see you Go: (", "Talk to you later", "Good Bye"]
+    },
+    {
+        "tag": "Age",
+        "patterns": ["How old are you?","How old","What is youre age","age?"],
+        "responses": ["I am 20 Years old!", "20 Years Old!"]
+    },
+    {
+        "tag": "name",
+        "patterns": ["What is youre name?","name?","what should I call you?","Who are you?", "can you tell me youre name?"],
+        "responses": ["My name is Omer Mohiuddin!","I am Omer Mohiuddin!"]
+    },
+    {
+        "tag": "languages",
+        "patterns": ["what coding languages do you know?","what languages do you know?","coding languages?", "Python?", "java?", "CSS?", "backend?", "Front-end?"],
+        "responses": ["Yes, I know both front-end and backend languages such as Python, Java, C++, CSS, JavaScript, HTML and React"]
+    },
+    {
+        "tag": "Contact",
+        "patterns": ["Email?","Phone Number?","Contact?","how can we talk?","can I call you?", "Can I email you?"],
+        "responses": ["Me email is: Mdomermohi@gmail.com and my Phone Number is (613)-314-9939"]
+    },
+    {
+        "tag": "education",
+        "patterns": ["What school do you go to?", "education?"],
+        "responses": ["I am Currently a third year student at Carleton University in Ottawa, ON"]
+    }
+]}
